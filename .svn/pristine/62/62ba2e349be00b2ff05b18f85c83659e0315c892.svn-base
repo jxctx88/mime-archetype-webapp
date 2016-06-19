@@ -1,0 +1,11 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+${symbol_pound}jdbc.driverClassName=net.sourceforge.jtds.jdbc.Driver
+${symbol_pound}jdbc.url=jdbc:jtds:sqlserver://99.48.18.161:1433/MEMEDAIDB
+${symbol_pound}jdbc.username=dev
+${symbol_pound}jdbc.password=1qaz@WSX
+jdbc.driverClassName=${symbol_dollar}{jdbc.driverClassName}
+jdbc.url=${symbol_dollar}{jdbc.url}
+jdbc.username=${symbol_dollar}{jdbc.username}
+jdbc.password=${symbol_dollar}{jdbc.password}
